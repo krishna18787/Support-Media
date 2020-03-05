@@ -1,65 +1,65 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:2:11-42
-		INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:2:11-42
+		INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml
+		INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml
+		INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:4:5-51
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:4:5-51
 	android:versionCode
-		INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml
+		INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:3:5-63
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:3:5-63
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:6:5-68
+ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:6:5-68
 	android:name
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:6:22-65
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:6:22-65
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:8:5-77
+ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:8:5-77
 	android:name
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:8:22-74
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:8:22-74
 uses-sdk
-ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:9:5-14:70
-INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:9:5-14:70
-INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:9:5-14:70
-INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:9:5-14:70
-INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:9:5-14:70
+ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:9:5-14:70
+INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:9:5-14:70
+INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:9:5-14:70
+INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:9:5-14:70
+INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:9:5-14:70
 	tools:overrideLibrary
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:9:5-14:70
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:9:5-14:70
 	android:targetSdkVersion
-		INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:9:5-14:70
-		INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml
+		INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:9:5-14:70
+		INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:9:5-14:70
-		INJECTED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml
+		INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:9:5-14:70
+		INJECTED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:16:9-21:19
+ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:16:9-21:19
 receiver#com.krishna.videoview.receiver.MediaButtonEventReceiver
-ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:17:17-21:20
+ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:17:17-21:20
 	android:name
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:17:25-74
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:17:25-74
 intent-filter#action:name:android.intent.action.MEDIA_BUTTON
-ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:18:13-20:29
+ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:18:13-20:29
 action#android.intent.action.MEDIA_BUTTON
-ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:19:9-77
+ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:19:9-77
 	android:name
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:19:18-77
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:19:18-77
 service#com.krishna.videoview.service.BackgroundPlaybackControllerService
-ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:20:1-21:80
+ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:20:1-21:80
 	android:name
-		ADDED from C:\Users\hp\Downloads\FileManager-master\FileManager-master\texture-video-view\src\main\AndroidManifest.xml:20:1-21:80
+		ADDED from E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:20:1-21:80

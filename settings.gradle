@@ -1,2 +1,2 @@
-include ':app', ':PdfReader'
+include ':app', ':PdfReader' ,':SmartVideoView'
 rootProject.name='Support-media'

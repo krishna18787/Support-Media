@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.krishna.videoview.test" >
+4
+5    <uses-sdk
+5-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:5:5-74
+6        android:minSdkVersion="14"
+6-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:5:42-71
+8
+9    <instrumentation
+9-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:11:5-15:76
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:11:22-76
+11        android:functionalTest="false"
+11-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:14:22-52
+12        android:handleProfiling="false"
+12-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:13:22-53
+13        android:label="Tests for com.krishna.videoview.test"
+13-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:15:22-74
+14        android:targetPackage="com.krishna.videoview.test" />
+14-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:12:22-72
+15
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-68
+16-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-65
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-77
+17-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-74
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.exoplayer:exoplayer-core:2.11.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f0815c06f32f21bb3439c32a653b33db\jetified-exoplayer-core-2.11.1\AndroidManifest.xml:24:5-79
+18-->[com.google.android.exoplayer:exoplayer-core:2.11.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f0815c06f32f21bb3439c32a653b33db\jetified-exoplayer-core-2.11.1\AndroidManifest.xml:24:22-76
+19
+20    <application
+20-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:7:5-9:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true" >
+22-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:7:18-43
+23        <uses-library android:name="android.test.runner" />
+23-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:8:9-60
+23-->E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8148712975963093606.xml:8:23-57
+24
+25        <receiver android:name="com.krishna.videoview.receiver.MediaButtonEventReceiver" >
+25-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-21:20
+25-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:19-89
+26            <intent-filter>
+26-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:29
+27                <action android:name="android.intent.action.MEDIA_BUTTON" />
+27-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-77
+27-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-74
+28            </intent-filter>
+29        </receiver>
+30
+31        <service android:name="com.krishna.videoview.service.BackgroundPlaybackControllerService" />
+31-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-101
+31-->[__tested_artifact__::SmartVideoView] E:\Git Dependency\Supportmedia\SmartVideoView\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:18-98
+32    </application>
+33
+34</manifest>
