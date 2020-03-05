@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_translucent">#80000000</color>
+    <color name="white_translucent">#80FFFFFF</color>
+
+    <color name="bg_popup_light">#80404040</color>
+    <color name="bg_popup">#A6393833</color>
+    <color name="bg_popup_dark">#C0292929</color>
+    <color name="videoScrimColor">#55000000</color>
+
+    <!-- the same as @android:color/lighter_gray -->
+    <color name="lighter_gray">#DDDDDD</color>
+    <color name="darkGray_translucent">#80444444</color>
+    <color name="darkGray">#444444</color>
+    <color name="gray">#888888</color>
+    <color name="lightGray">#AAAAAA</color>
+    <color name="gray_rgb230">#E6E6E6</color>
+    <color name="gray_rgb240">#F0F0F0</color>
+    <color name="gray_rgb242">#F2F2F2</color>
+    <!-- application module defined -->
+    <color name="colorAccent" />
+</resources>
