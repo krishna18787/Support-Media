@@ -13,72 +13,62 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.krishna.pdfreader;
+package com.github.barteksc.pdfviewer;
 
+import android.content.Context;
 import android.os.AsyncTask;
 
-import com.krishna.pdfreader.source.DocumentSource;
+import com.github.barteksc.pdfviewer.source.DocumentSource;
 import com.shockwave.pdfium.PdfDocument;
 import com.shockwave.pdfium.PdfiumCore;
-import com.shockwave.pdfium.util.Size;
-
-import java.lang.ref.WeakReference;
 
 class DecodingAsyncTask extends AsyncTask<Void, Void, Throwable> {
 
     private boolean cancelled;
 
-    private WeakReference<PDFView> pdfViewReference;
+    private PDFView pdfView;
 
+    private Context context;
     private PdfiumCore pdfiumCore;
+    private PdfDocument pdfDocument;
     private String password;
     private DocumentSource docSource;
-    private int[] userPages;
-    private PdfFile pdfFile;
+    private int firstPageIdx;
+    private int pageWidth;
+    private int pageHeight;
 
-    DecodingAsyncTask(DocumentSource docSource, String password, int[] userPages, PDFView pdfView, PdfiumCore pdfiumCore) {
+    DecodingAsyncTask(DocumentSource docSource, String password, PDFView pdfView, PdfiumCore pdfiumCore, int firstPageIdx) {
         this.docSource = docSource;
-        this.userPages = userPages;
+        this.firstPageIdx = firstPageIdx;
         this.cancelled = false;
-        this.pdfViewReference = new WeakReference<>(pdfView);
+        this.pdfView = pdfView;
         this.password = password;
         this.pdfiumCore = pdfiumCore;
+        context = pdfView.getContext();
     }
 
     @Override
     protected Throwable doInBackground(Void... params) {
         try {
-            PDFView pdfView = pdfViewReference.get();
-            if (pdfView != null) {
-                PdfDocument pdfDocument = docSource.createDocument(pdfView.getContext(), pdfiumCore, password);
-                pdfFile = new PdfFile(pdfiumCore, pdfDocument, pdfView.getPageFitPolicy(), getViewSize(pdfView),
-                        userPages, pdfView.isSwipeVertical(), pdfView.getSpacingPx(), pdfView.isAutoSpacingEnabled(),
-                        pdfView.isFitEachPage());
-                return null;
-            } else {
-                return new NullPointerException("pdfView == null");
-            }
-
+            pdfDocument = docSource.createDocument(context, pdfiumCore, password);
+            // We assume all the pages are the same size
+            pdfiumCore.openPage(pdfDocument, firstPageIdx);
+            pageWidth = pdfiumCore.getPageWidth(pdfDocument, firstPageIdx);
+            pageHeight = pdfiumCore.getPageHeight(pdfDocument, firstPageIdx);
+            return null;
         } catch (Throwable t) {
             return t;
         }
     }
 
-    private Size getViewSize(PDFView pdfView) {
-        return new Size(pdfView.getWidth(), pdfView.getHeight());
-    }
-
     @Override
     protected void onPostExecute(Throwable t) {
-        PDFView pdfView = pdfViewReference.get();
-        if (pdfView != null) {
-            if (t != null) {
-                pdfView.loadError(t);
-                return;
-            }
-            if (!cancelled) {
-                pdfView.loadComplete(pdfFile);
-            }
+        if (t != null) {
+            pdfView.loadError(t);
+            return;
+        }
+        if (!cancelled) {
+            pdfView.loadComplete(pdfDocument, pageWidth, pageHeight);
         }
     }
 

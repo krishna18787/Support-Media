@@ -1,2 +1,0 @@
-D com/krishna/videoview/TextureVideoView$ViewMode
-D com/krishna/videoview/drawable/CircularProgressDrawable$ProgressDrawableSize

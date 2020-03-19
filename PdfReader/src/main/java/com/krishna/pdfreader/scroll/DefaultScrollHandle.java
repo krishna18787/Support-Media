@@ -1,22 +1,19 @@
-package com.krishna.pdfreader.scroll;
-
-
+package com.github.barteksc.pdfviewer.scroll;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Handler;
+import android.support.v4.content.ContextCompat;
 import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import androidx.core.content.ContextCompat;
-
-import com.krishna.pdfreader.PDFView;
-import com.krishna.pdfreader.R;
-import com.krishna.pdfreader.util.Util;
+import com.github.barteksc.pdfviewer.PDFView;
+import com.github.barteksc.pdfviewer.R;
+import com.github.barteksc.pdfviewer.util.Util;
 
 public class DefaultScrollHandle extends RelativeLayout implements ScrollHandle {
 
@@ -113,9 +110,7 @@ public class DefaultScrollHandle extends RelativeLayout implements ScrollHandle 
         } else {
             handler.removeCallbacks(hidePageScrollerRunnable);
         }
-        if (pdfView != null) {
-            setPosition((pdfView.isSwipeVertical() ? pdfView.getHeight() : pdfView.getWidth()) * position);
-        }
+        setPosition((pdfView.isSwipeVertical() ? pdfView.getHeight() : pdfView.getWidth()) * position);
     }
 
     private void setPosition(float pos) {
@@ -233,7 +228,6 @@ public class DefaultScrollHandle extends RelativeLayout implements ScrollHandle 
             case MotionEvent.ACTION_UP:
             case MotionEvent.ACTION_POINTER_UP:
                 hideDelayed();
-                pdfView.performPageSnap();
                 return true;
         }
 

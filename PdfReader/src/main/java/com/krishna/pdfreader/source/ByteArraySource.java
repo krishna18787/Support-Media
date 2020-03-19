@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.krishna.pdfreader.source;
+package com.github.barteksc.pdfviewer.source;
 
 import android.content.Context;
 

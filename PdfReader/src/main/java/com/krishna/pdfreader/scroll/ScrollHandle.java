@@ -1,6 +1,6 @@
-package com.krishna.pdfreader.scroll;
+package com.github.barteksc.pdfviewer.scroll;
 
-import com.krishna.pdfreader.PDFView;
+import com.github.barteksc.pdfviewer.PDFView;
 
 public interface ScrollHandle {
 

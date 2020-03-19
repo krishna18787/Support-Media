@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.krishna.pdfreader.source;
+package com.github.barteksc.pdfviewer.source;
 
 
 import android.content.Context;
 import android.os.ParcelFileDescriptor;
 
-import com.krishna.pdfreader.util.FileUtils;
+import com.github.barteksc.pdfviewer.util.FileUtils;
 import com.shockwave.pdfium.PdfDocument;
 import com.shockwave.pdfium.PdfiumCore;
 

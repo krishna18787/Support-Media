@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.krishna.pdfreader.util;
+package com.github.barteksc.pdfviewer.util;
 
 public class Constants {
 
@@ -29,15 +29,15 @@ public class Constants {
      */
     public static float PART_SIZE = 256;
 
-    /** Part of document above and below screen that should be preloaded, in dp */
-    public static int PRELOAD_OFFSET = 20;
+    /** Number of preloaded rows or columns */
+    public static int PRELOAD_COUNT = 7;
 
     public static class Cache {
 
         /** The size of the cache (number of bitmaps kept) */
         public static int CACHE_SIZE = 120;
 
-        public static int THUMBNAILS_CACHE_SIZE = 8;
+        public static int THUMBNAILS_CACHE_SIZE = 6;
     }
 
     public static class Pinch {
