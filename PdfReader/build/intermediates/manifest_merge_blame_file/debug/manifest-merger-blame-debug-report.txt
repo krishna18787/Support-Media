@@ -1,0 +1,20 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.krishna.pdfreader"
+4    android:versionCode="1"
+5    android:versionName="3.2.0-beta.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->E:\Git Dependency\Supportmedia\PdfReader\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\Git Dependency\Supportmedia\PdfReader\src\main\AndroidManifest.xml
+10
+11    <uses-permission
+11-->E:\Git Dependency\Supportmedia\PdfReader\src\main\AndroidManifest.xml:4:5-91
+12        android:name="android.permission.INTERNET"
+12-->E:\Git Dependency\Supportmedia\PdfReader\src\main\AndroidManifest.xml:4:22-64
+13        android:required="true" />
+13-->E:\Git Dependency\Supportmedia\PdfReader\src\main\AndroidManifest.xml:4:65-88
+14
+15</manifest>

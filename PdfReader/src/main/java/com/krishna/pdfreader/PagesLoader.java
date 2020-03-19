@@ -1,13 +1,13 @@
-package com.github.barteksc.pdfviewer;
+package com.krishna.pdfreader;
 
 
 import android.graphics.RectF;
 import android.util.Pair;
 
-import com.github.barteksc.pdfviewer.util.Constants;
-import com.github.barteksc.pdfviewer.util.MathUtils;
+import com.krishna.pdfreader.util.Constants;
+import com.krishna.pdfreader.util.MathUtils;
 
-import static com.github.barteksc.pdfviewer.util.Constants.Cache.CACHE_SIZE;
+import static com.krishna.pdfreader.util.Constants.Cache.CACHE_SIZE;
 
 class PagesLoader {
 

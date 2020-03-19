@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.krishna.videoview"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:8:5-13:70
+9        android:minSdkVersion="14"
+9-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:8:5-13:70
+10        android:targetSdkVersion="29"
+10-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:8:5-13:70
+11        tools:overrideLibrary="             com.google.android.exoplayer2.core,             com.google.android.exoplayer2.source.dash,             com.google.android.exoplayer2.source.hls,             com.google.android.exoplayer2.source.smoothstreaming" />
+11-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:8:5-13:70
+12
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:6:5-68
+13-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:6:22-65
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:7:5-77
+14-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:7:22-74
+15
+16    <application>
+16-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:15:9-20:19
+17        <receiver android:name="com.krishna.videoview.receiver.MediaButtonEventReceiver" >
+17-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:16:17-20:20
+17-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:16:25-74
+18            <intent-filter>
+18-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:17:13-19:29
+19                <action android:name="android.intent.action.MEDIA_BUTTON" />
+19-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:18:9-77
+19-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:18:18-77
+20            </intent-filter>
+21        </receiver>
+22
+23        <service android:name="com.krishna.videoview.service.BackgroundPlaybackControllerService" />
+23-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:19:1-20:80
+23-->E:\Git Dependency\Supportmedia\SmartVideoView\src\main\AndroidManifest.xml:19:1-20:80
+24    </application>
+25
+26</manifest>

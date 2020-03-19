@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.barteksc.pdfviewer;
+package com.krishna.pdfreader;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -34,27 +34,27 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.RelativeLayout;
 
-import com.github.barteksc.pdfviewer.listener.OnDrawListener;
-import com.github.barteksc.pdfviewer.listener.OnErrorListener;
-import com.github.barteksc.pdfviewer.listener.OnFileDownloadCompleteListener;
-import com.github.barteksc.pdfviewer.listener.OnLoadCompleteListener;
-import com.github.barteksc.pdfviewer.listener.OnPageChangeListener;
-import com.github.barteksc.pdfviewer.listener.OnPageScrollListener;
-import com.github.barteksc.pdfviewer.listener.OnRenderListener;
-import com.github.barteksc.pdfviewer.model.PagePart;
-import com.github.barteksc.pdfviewer.scroll.ScrollHandle;
-import com.github.barteksc.pdfviewer.source.AssetSource;
-import com.github.barteksc.pdfviewer.source.ByteArraySource;
-import com.github.barteksc.pdfviewer.source.DocumentSource;
-import com.github.barteksc.pdfviewer.source.FileSource;
-import com.github.barteksc.pdfviewer.source.InputStreamSource;
-import com.github.barteksc.pdfviewer.source.UriSource;
-import com.github.barteksc.pdfviewer.source.UrlSource;
-import com.github.barteksc.pdfviewer.util.ArrayUtils;
-import com.github.barteksc.pdfviewer.util.Constants;
-import com.github.barteksc.pdfviewer.util.DownloadUtil;
-import com.github.barteksc.pdfviewer.util.MathUtils;
-import com.github.barteksc.pdfviewer.util.Util;
+import com.krishna.pdfreader.listener.OnDrawListener;
+import com.krishna.pdfreader.listener.OnErrorListener;
+import com.krishna.pdfreader.listener.OnFileDownloadCompleteListener;
+import com.krishna.pdfreader.listener.OnLoadCompleteListener;
+import com.krishna.pdfreader.listener.OnPageChangeListener;
+import com.krishna.pdfreader.listener.OnPageScrollListener;
+import com.krishna.pdfreader.listener.OnRenderListener;
+import com.krishna.pdfreader.model.PagePart;
+import com.krishna.pdfreader.scroll.ScrollHandle;
+import com.krishna.pdfreader.source.AssetSource;
+import com.krishna.pdfreader.source.ByteArraySource;
+import com.krishna.pdfreader.source.DocumentSource;
+import com.krishna.pdfreader.source.FileSource;
+import com.krishna.pdfreader.source.InputStreamSource;
+import com.krishna.pdfreader.source.UriSource;
+import com.krishna.pdfreader.source.UrlSource;
+import com.krishna.pdfreader.util.ArrayUtils;
+import com.krishna.pdfreader.util.Constants;
+import com.krishna.pdfreader.util.DownloadUtil;
+import com.krishna.pdfreader.util.MathUtils;
+import com.krishna.pdfreader.util.Util;
 import com.shockwave.pdfium.PdfDocument;
 import com.shockwave.pdfium.PdfiumCore;
 

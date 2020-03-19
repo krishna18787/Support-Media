@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.barteksc.pdfviewer;
+package com.krishna.pdfreader;
 
 import android.graphics.PointF;
 import android.view.GestureDetector;
@@ -21,10 +21,10 @@ import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
 
-import com.github.barteksc.pdfviewer.scroll.ScrollHandle;
+import com.krishna.pdfreader.scroll.ScrollHandle;
 
-import static com.github.barteksc.pdfviewer.util.Constants.Pinch.MAXIMUM_ZOOM;
-import static com.github.barteksc.pdfviewer.util.Constants.Pinch.MINIMUM_ZOOM;
+import static com.krishna.pdfreader.util.Constants.Pinch.MAXIMUM_ZOOM;
+import static com.krishna.pdfreader.util.Constants.Pinch.MINIMUM_ZOOM;
 
 /**
  * This Manager takes care of moving the PDFView,

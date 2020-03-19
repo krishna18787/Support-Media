@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.barteksc.pdfviewer;
+package com.krishna.pdfreader;
 
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
@@ -23,7 +23,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 
-import com.github.barteksc.pdfviewer.model.PagePart;
+import com.krishna.pdfreader.model.PagePart;
 import com.shockwave.pdfium.PdfDocument;
 import com.shockwave.pdfium.PdfiumCore;
 

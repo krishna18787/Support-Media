@@ -13,20 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.barteksc.pdfviewer;
+package com.krishna.pdfreader;
 
 import android.graphics.RectF;
-import android.support.annotation.Nullable;
-
-import com.github.barteksc.pdfviewer.model.PagePart;
+import com.krishna.pdfreader.model.PagePart;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
-import static com.github.barteksc.pdfviewer.util.Constants.Cache.CACHE_SIZE;
-import static com.github.barteksc.pdfviewer.util.Constants.Cache.THUMBNAILS_CACHE_SIZE;
+import static com.krishna.pdfreader.util.Constants.Cache.CACHE_SIZE;
+import static com.krishna.pdfreader.util.Constants.Cache.THUMBNAILS_CACHE_SIZE;
 
 class CacheManager {
 
@@ -122,7 +120,6 @@ class CacheManager {
         }
     }
 
-    @Nullable
     private static PagePart find(PriorityQueue<PagePart> vector, PagePart fakePart) {
         for (PagePart part : vector) {
             if (part.equals(fakePart)) {

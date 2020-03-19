@@ -1,4 +1,4 @@
-package com.github.barteksc.pdfviewer.source;
+package com.krishna.pdfreader.source;
 
 import android.content.Context;
 import android.os.Environment;

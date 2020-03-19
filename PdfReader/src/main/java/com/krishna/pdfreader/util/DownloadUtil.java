@@ -1,6 +1,5 @@
-package com.github.barteksc.pdfviewer.util;
+package com.krishna.pdfreader.util;
 
-import android.support.annotation.NonNull;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -103,12 +102,6 @@ public class DownloadUtil {
         return savePath;
     }
 
-    /**
-     * @param url
-     * @return
-     * 从下载连接中解析出文件名
-     */
-    @NonNull
     private String getNameFromUrl(String url) {
         return url.substring(url.lastIndexOf("/") + 1);
     }
